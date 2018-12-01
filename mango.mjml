@@ -1,0 +1,71 @@
+<mjml>
+
+  <mj-head>
+    <mj-title>MANGO Season Sale</mj-title>
+    <mj-preview>MANGO End of Season Sale. 30% Off Everything</mj-preview>
+    <mj-font name="encode" href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:300,400,500,700" />
+    <mj-font name="questrial" href="https://fonts.googleapis.com/css?family=Questrial" />
+    <mj-attributes>
+      <mj-class name="heading" font-family="questrial" text-transform="uppercase" />
+      <mj-class name="text-content" font-family="questrial" font-size="17px" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+
+
+    <!-- icon  -->
+    <mj-section>
+
+    </mj-section>
+
+    <!-- hero  -->
+    <mj-section>
+
+    </mj-section>
+
+    <!-- introduction  -->
+    <mj-section>
+
+    </mj-section>
+
+    <!-- product 1  -->
+    <mj-section>
+
+    </mj-section>
+
+    <!-- product 2  -->
+    <mj-section>
+
+    </mj-section>
+
+    <!-- product 3  -->
+    <mj-section>
+
+    </mj-section>
+
+    <!-- product 4  -->
+    <mj-section>
+
+    </mj-section>
+
+    <!-- product 5  -->
+    <mj-section>
+
+    </mj-section>
+
+    <!-- purchase  -->
+    <mj-section>
+
+    </mj-section>
+
+    <!-- footer -->
+    <mj-section>
+
+    </mj-section>
+
+
+
+
+  </mj-body>
+</mjml>
