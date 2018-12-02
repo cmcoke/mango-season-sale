@@ -6,7 +6,7 @@
     <mj-font name="questrial" href="https://fonts.googleapis.com/css?family=Questrial" />
     <mj-attributes>
       <mj-class name="heading" font-family="questrial" text-transform="uppercase" />
-      <mj-class name="text-content" font-family="questrial" font-size="17px" />
+      <mj-class name="text-content" font-family="questrial" font-size="18px" />
     </mj-attributes>
   </mj-head>
 
