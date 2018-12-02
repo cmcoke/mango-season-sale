@@ -5,33 +5,47 @@
     <mj-preview>MANGO End of Season Sale. 30% Off Everything</mj-preview>
     <mj-font name="questrial" href="https://fonts.googleapis.com/css?family=Questrial" />
     <mj-attributes>
-      <mj-class name="heading" font-family="questrial" text-transform="uppercase" />
-      <mj-class name="text-content" font-family="questrial" font-size="18px" />
+      <mj-all padding="0" />
     </mj-attributes>
   </mj-head>
 
-  <mj-body background-color="#F4F4F4">
+  <mj-body background-color="#eeecec">
 
 
     <!-- icon  -->
-    <mj-section padding="30px 0px 0px 0px">
+    <mj-section padding="30px 0px 0px 0px" background-color="#ffffff">
       <mj-column >
-        <mj-image width="150px" src="https://i.postimg.cc/bvwbryLd/mango.png"/>
+        <mj-image width="150px" src="https://i.postimg.cc/bvwbryLd/mango.png"/ alt="MANGO logo">
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="30px 0px 0px 0px" background-color="#ffffff">
+      <mj-column >
+         <mj-spacer height="0px" />
       </mj-column>
     </mj-section>
 
     <!-- hero  -->
-    <mj-section padding="13px 0px 0px 0px">
+    <mj-section padding="0px 0px 0px 0px" background-color="#F4F4F4">
       <mj-column>
         <mj-image width="750px" src="https://i.postimg.cc/DZNCgt7r/hero.jpg" alt="Enjoy 30% off on all items. Free shipping is included"/><mj-image>
       </mj-column>
     </mj-section>
 
-
     <!-- introduction  -->
-    <mj-section>
-
+    <mj-section background-color="#ffffff">
+      <mj-column  padding="30px 0px">
+        <mj-text font-family="questrial" font-size="15px" letter-spacing="2px" align="center" line-height="22px" color="#454545">
+          <p >The sesaon of giving is always a great excuse to add <br> new clothes to your wardrobe.</p>
+          <mj-spacer height="30px" />
+          <p>So we thought we’d give you a helping hand with 30% off.<br> Enter the promo code <strong>30%OFFNOW</strong> at checkout.</p>
+        </mj-text>
+        <mj-spacer height="10px" />
+        <mj-button background-color="#EE4D30" href="#">SHOP NOW</mj-button>
+        <mj-spacer height="30px" />
+      </mj-column>
     </mj-section>
+
 
     <!-- product 1  -->
     <mj-section>
