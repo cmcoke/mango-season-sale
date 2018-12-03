@@ -6,6 +6,7 @@
     <mj-font name="questrial" href="https://fonts.googleapis.com/css?family=Questrial" />
     <mj-attributes>
       <mj-all padding="0" />
+      <mj-class name="image-space" style="display:block">
     </mj-attributes>
   </mj-head>
 
@@ -14,7 +15,7 @@
     <!-- icon  -->
     <mj-section padding="30px 0px 0px 0px" background-color="#ffffff">
       <mj-column>
-        <mj-image width="150px" src="https://i.postimg.cc/bvwbryLd/mango.png" / alt="MANGO logo">
+        <mj-image width="150px" src="https://i.postimg.cc/bvwbryLd/mango.png" alt="MANGO logo"/>
       </mj-column>
     </mj-section>
 
@@ -35,7 +36,7 @@
     <!-- introduction  -->
     <mj-section background-color="#ffffff">
       <mj-column padding="30px 0px">
-        <mj-text font-family="questrial" font-size="15px" letter-spacing="2px" align="center" line-height="22px" color="#454545">
+        <mj-text font-family="questrial" font-size="15px" letter-spacing="2px" align="center" line-height="22px" color="#454545" padding="11px 11px 0px 11px">
           <p>The sesaon of giving is always a great excuse to add <br> new clothes to your wardrobe.</p>
           <mj-spacer height="30px" />
           <p>So we thought we’d give you a helping hand with 30% off.<br> Enter the promo code <strong>30%OFFNOW</strong> at checkout.</p>
@@ -48,208 +49,231 @@
 
 
     <!-- product 1  -->
-    <mj-section direction="rtl">
+    <mj-section direction="rtl"  padding="0">
 
       <!-- image -->
-      <mj-column>
-        <mj-image fluid-on-mobile="true" src="https://i.postimg.cc/6QYkVqBR/m15.jpg" alt="Textured Ruffled Dress" />
+      <mj-column width="50%">
+        <mj-image fluid-on-mobile="true" src="https://i.postimg.cc/6QYkVqBR/m15.jpg" alt="Textured Ruffled Dress"  mj-class="image-space"/>
       </mj-column>
 
       <!--- text content --->
-      <mj-column background-color="#E1DDDD" padding-top="120px" padding-bottom="123px" padding-right="30px" padding-left="30px">
+      <mj-column width="50%" background-color="#E1DDDD" padding="121px 22px">
 
         <!--clothes name -->
         <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center">
           <strong>Textured Ruffled Dress</strong>
         </mj-text>
 
-        <mj-spacer height="11px" />
-
         <!--clothes info -->
-        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center">
+        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center" padding="11px 0px 0px 0px">
           Crossover design. Midi design. Cable knit fabric. Crossed V-neck. Long sleeve. Bow on the waist.
         </mj-text>
 
-
-        <mj-spacer height="11px" />
-
         <!--clothes price -->
-        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center">
+        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center" padding="11px 0px 0px 0px">
           <strong>Price: $59.99</strong>
         </mj-text>
 
-        <mj-spacer height="11px" />
-
         <!-- buy button -->
-        <mj-button href="#">Buy</mj-button>
+        <mj-button href="#" padding="11px 0px 0px 0px">Buy</mj-button>
 
       </mj-column>
 
     </mj-section>
 
     <!-- product 2  -->
-    <mj-section>
+    <mj-section padding="0">
 
       <!-- image -->
-      <mj-column>
-        <mj-image fluid-on-mobile="true" src="https://i.postimg.cc/vHndRGvF/m5.jpg" alt="Jacquard Leopard Print Dress" />
+      <mj-column width="50%" >
+        <mj-image fluid-on-mobile="true" src="https://i.postimg.cc/vHndRGvF/m5.jpg" alt="Jacquard Leopard Print Dress" mj-class="image-space"/>
       </mj-column>
 
       <!--- text content --->
-      <mj-column background-color="#E1DDDD" padding-top="120px" padding-bottom="57px" padding-right="30px" padding-left="30px">
+      <mj-column width="50%" background-color="#E1DDDD" padding="100px 22px 98px">
 
         <!--clothes name -->
         <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center">
           <strong>Jacquard Leopard Print Dress</strong>
         </mj-text>
 
-        <mj-spacer height="11px" />
-
         <!--clothes info -->
-        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center">
+        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center" padding="11px 0px 0px 0px">
           Straight design. Jacquard. Leopard print. Satin finish. Round neck. Button fastening at back. Zip fastening on the back section. Long buttoned sleeve. Knot on the waist. Asymmetric hem.
         </mj-text>
 
-
-        <mj-spacer height="11px" />
-
         <!--clothes price -->
-        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center">
+        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center" padding="11px 0px 0px 0px">
           <strong>Price: $59.99</strong>
         </mj-text>
 
-        <mj-spacer height="11px" />
-
         <!-- buy button -->
-        <mj-button href="#">Buy</mj-button>
+        <mj-button href="#" padding="11px 0px 0px 0px">Buy</mj-button>
 
       </mj-column>
 
     </mj-section>
 
     <!-- product 3  -->
-    <mj-section direction="rtl">
+    <mj-section direction="rtl" padding="0">
 
       <!-- image -->
-      <mj-column>
-        <mj-image fluid-on-mobile="true" src="https://i.postimg.cc/nrzC8q3Z/accessories.jpg" alt="Textured Ruffled Dress" />
+      <mj-column width="50%">
+        <mj-image fluid-on-mobile="true" src="https://i.postimg.cc/nrzC8q3Z/accessories.jpg" alt="Textured Ruffled Dress" mj-class="image-space"/>
       </mj-column>
 
       <!--- text content --->
-      <mj-column background-color="#E1DDDD" padding-top="121px" padding-bottom="155px" padding-right="30px" padding-left="30px">
+      <mj-column width="50%" background-color="#E1DDDD" padding="149px 0">
 
         <!--clothes name -->
         <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center">
           <strong>Other Items on Sale</strong>
         </mj-text>
 
-        <mj-spacer height="11px" />
-
         <!--clothes info -->
-        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center">
+        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center" padding="11px 11px 0px 11px">
           Intrested in bags, shoes, jewelery or other accessories? We got you covered.
         </mj-text>
 
-        <mj-spacer height="11px" />
-
         <!-- buy button -->
-        <mj-button href="#">Click Here</mj-button>
+        <mj-button href="#" padding="11px 0px 0px 0px">Click Here</mj-button>
 
       </mj-column>
 
     </mj-section>
 
     <!-- product 4  -->
-    <mj-section>
+    <mj-section padding="0">
 
       <!-- image -->
-      <mj-column>
-        <mj-image fluid-on-mobile="true" src="https://i.postimg.cc/rF5F113r/m22.jpg" alt="Bow Shirt Dress" />
+      <mj-column width="50%">
+        <mj-image fluid-on-mobile="true" src="https://i.postimg.cc/rF5F113r/m22.jpg" alt="Bow Shirt Dress" mj-class="image-space"/>
       </mj-column>
 
       <!--- text content --->
-      <mj-column background-color="#E1DDDD" padding-top="120px" padding-bottom="101px" padding-right="30px" padding-left="30px">
+      <mj-column width="50%" background-color="#E1DDDD" padding="120px 0 122px">
 
         <!--clothes name -->
         <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center">
           <strong>Bow Shirt Dress</strong>
         </mj-text>
 
-        <mj-spacer height="11px" />
-
         <!--clothes info -->
-        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center">
+        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center"padding="11px 11px 0px 11px">
           Cotton fabric. Shirt-style collar. Button fastening. Loops on the waist. Bow on the waist. Long sleeve. Two side pockets.
         </mj-text>
 
-
-        <mj-spacer height="11px" />
-
         <!--clothes price -->
-        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center">
+        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center" padding="11px 0px 0px 0px">
           <strong>Price: $39.99</strong>
         </mj-text>
 
-        <mj-spacer height="11px" />
-
         <!-- buy button -->
-        <mj-button href="#">Buy</mj-button>
+        <mj-button href="#" padding="11px 0px 0px 0px">Buy</mj-button>
 
       </mj-column>
 
     </mj-section>
 
     <!-- product 5  -->
-    <mj-section direction="rtl">
+    <mj-section direction="rtl" padding="0">
 
       <!-- image -->
-      <mj-column>
-        <mj-image fluid-on-mobile="true" src="https://i.postimg.cc/vBTp0ymK/m16.jpg" alt="Striped Bow Dress" />
+      <mj-column  width="50%">
+        <mj-image fluid-on-mobile="true" src="https://i.postimg.cc/vBTp0ymK/m16.jpg" alt="Striped Bow Dress" mj-class="image-space"/>
       </mj-column>
 
       <!--- text content --->
-      <mj-column background-color="#E1DDDD" padding-top="120px" padding-bottom="75px" padding-right="30px" padding-left="30px">
+      <mj-column  width="50%" background-color="#E1DDDD" padding="110px 0">
 
         <!--clothes name -->
         <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center">
           <strong>Striped Bow Dress</strong>
         </mj-text>
 
-        <mj-spacer height="11px" />
-
         <!--clothes info -->
-        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center">
+        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center" padding="11px 11px 0px 11px">
           Flared design. Striped texture fabric. Round neck. Dropped shoulder seams. Short sleeve. Bow on the waist. Teardrop fastening at back.
         </mj-text>
 
-
-        <mj-spacer height="11px" />
-
         <!--clothes price -->
-        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center">
+        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center" padding="11px 0px 0px 0px">
           <strong>Price: $59.99</strong>
         </mj-text>
 
-        <mj-spacer height="11px" />
-
         <!-- buy button -->
-        <mj-button href="#">Buy</mj-button>
+        <mj-button href="#" padding="11px 0px 0px 0px">Buy</mj-button>
 
       </mj-column>
 
     </mj-section>
 
-    <!-- purchase  -->
-    <mj-section>
+    <!-- Footer section start -->
 
+    <!-- footer icon -->
+    <mj-section background-color="#ffffff">
+        <mj-column padding="50px 0px 15px 0px">
+          <mj-image width="120px" src="https://i.postimg.cc/bvwbryLd/mango.png"></mj-image>
+        </mj-column>
     </mj-section>
 
-    <!-- footer -->
-    <mj-section>
-
+    <!-- phone number -->
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-text font-family="questrial" font-size="13px" align="center">Call us today: +34 93 860 24 24</mj-text>
+      </mj-column>
     </mj-section>
 
+    <!-- address -->
+    <mj-section background-color="#ffffff" padding="11px 0px">
+      <mj-column>
+        <mj-text font-family="questrial" font-size="13px" align="center">C.P. 08184 Palau-solità i Plegamans Barcelona (Spain)</mj-text>
+      </mj-column>
+    </mj-section>
 
+    <!-- social media links -->
+    <mj-section background-color="#ffffff" padding="11px 0px">
+      <mj-column>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal" align="center">
+          <mj-social-element href="#" src="https://i.postimg.cc/3x9ff7nh/facebook.png" padding="0px 12px 0 12px"></mj-social-element>
+          <mj-social-element href="#" src="https://i.postimg.cc/nLzR65PD/instagram.png" padding="0px 12px 0 12px"></mj-social-element>
+          <mj-social-element href="#" src="https://i.postimg.cc/5tR713hk/twitter.png" padding="0px 12px 0 12px"></mj-social-element>
+          <mj-social-element href="#" src="https://i.postimg.cc/76JBLzDP/youtube.png" padding="0px 12px 0 12px"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <!-- view in browser, unsubscribe, send to a friend -->
+    <mj-section background-color="#ffffff" padding="11px 0px">
+      <mj-group>
+        <mj-column>
+          <mj-text font-family="questrial" font-size="13px" align="right">
+            <a style="color:black; text-decoration:none;" href="#">View in browser</a>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text font-family="questrial" font-size="13px" align="center">
+            <a style="color:black; text-decoration:none;" href="#">Unsubscibe</a>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text font-family="questrial" font-size="13px" align="left">
+            <a style="color:black; text-decoration:none;" href="#">Send to a friend</a>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <!-- creator of this email -->
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-text font-family="questrial" font-size="11px" align="center">
+          <p>This email was created by <a style="color:crimson; text-decoration:none;" href="#">C.Coke</a> 2018. Please note that all the images are from <a style="color:crimson; text-decoration:none;" href="https://shop.mango.com/sy/women">MANGO</a></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer section ends -->
 
 
   </mj-body>
