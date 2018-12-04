@@ -1,4 +1,4 @@
-<mjml>
+<mjml owa="desktop">
 
   <mj-head>
     <mj-title>MANGO Season Sale</mj-title>
@@ -6,116 +6,74 @@
     <mj-font name="questrial" href="https://fonts.googleapis.com/css?family=Questrial" />
     <mj-attributes>
       <mj-all padding="0" />
-      <mj-class name="image-space" style="display:block">
+      <mj-class name="image-space" style="display:block"/>
     </mj-attributes>
   </mj-head>
 
   <mj-body background-color="#eeecec">
 
     <!-- icon  -->
-    <mj-section padding="30px 0px 0px 0px" background-color="#ffffff">
+    <mj-section padding="30px 0px 30px 0px" background-color="#ffffff" border-top="2px solid #E1DDDD">
       <mj-column>
         <mj-image width="150px" src="https://i.postimg.cc/bvwbryLd/mango.png" alt="MANGO logo"/>
       </mj-column>
     </mj-section>
 
-    <mj-section padding="30px 0px 0px 0px" background-color="#ffffff">
-      <mj-column>
-        <mj-spacer height="0px" />
-      </mj-column>
-    </mj-section>
-
     <!-- hero  -->
-    <mj-section padding="0px 0px 0px 0px" background-color="#F4F4F4">
+    <mj-section background-color="#F4F4F4">
       <mj-column>
-        <mj-image width="750px" src="https://i.postimg.cc/DZNCgt7r/hero.jpg" alt="Enjoy 30% off on all items. Free shipping is included" />
-        <mj-image>
+        <mj-image width="750px" src="https://i.postimg.cc/DZNCgt7r/hero.jpg" alt="Enjoy 30% off on all items. Free shipping is included"/>
       </mj-column>
     </mj-section>
 
     <!-- introduction  -->
-    <mj-section background-color="#ffffff">
-      <mj-column padding="30px 0px">
+    <mj-section background-color="#ffffff" padding="10px 0px 30px 0px">
+      <mj-column>
         <mj-text font-family="questrial" font-size="15px" letter-spacing="2px" align="center" line-height="22px" color="#454545" padding="11px 11px 0px 11px">
           <p>The sesaon of giving is always a great excuse to add <br> new clothes to your wardrobe.</p>
-          <mj-spacer height="30px" />
+
           <p>So we thought we’d give you a helping hand with 30% off.<br> Enter the promo code <strong>30%OFFNOW</strong> at checkout.</p>
         </mj-text>
-        <mj-spacer height="10px" />
-        <mj-button background-color="#EE4D30" href="#">SHOP NOW</mj-button>
-        <mj-spacer height="30px" />
+
+        <mj-button background-color="#EE4D30" href="https://shop.mango.com/us">SHOP NOW</mj-button>
+
       </mj-column>
     </mj-section>
 
 
     <!-- product 1  -->
-    <mj-section direction="rtl"  padding="0">
+    <mj-section direction="rtl" background-color="#E1DDDD">
 
       <!-- image -->
       <mj-column width="50%">
-        <mj-image fluid-on-mobile="true" src="https://i.postimg.cc/6QYkVqBR/m15.jpg" alt="Textured Ruffled Dress"  mj-class="image-space"/>
+        <mj-image fluid-on-mobile="true" src="https://i.postimg.cc/6QYkVqBR/m15.jpg" href="https://shop.mango.com/us" alt="Textured Ruffled Dress"  mj-class="image-space"/>
       </mj-column>
 
       <!--- text content --->
-      <mj-column width="50%" background-color="#E1DDDD" padding="121px 22px">
-
-        <!--clothes name -->
-        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center">
-          <strong>Textured Ruffled Dress</strong>
-        </mj-text>
-
-        <!--clothes info -->
-        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center" padding="11px 0px 0px 0px">
-          Crossover design. Midi design. Cable knit fabric. Crossed V-neck. Long sleeve. Bow on the waist.
-        </mj-text>
-
-        <!--clothes price -->
-        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center" padding="11px 0px 0px 0px">
-          <strong>Price: $59.99</strong>
-        </mj-text>
-
-        <!-- buy button -->
-        <mj-button href="#" padding="11px 0px 0px 0px">Buy</mj-button>
-
+      <mj-column width="50%" background-color="#E1DDDD" padding="7px 0px">
+          <mj-image fluid-on-mobile="true" src="https://i.postimg.cc/QMypP5Pc/m1.jpg" href="https://shop.mango.com/us" alt="Textured Ruffled Dress"  mj-class="image-space"/>
       </mj-column>
+
 
     </mj-section>
 
     <!-- product 2  -->
-    <mj-section padding="0">
+    <mj-section background-color="#E1DDDD">
 
       <!-- image -->
       <mj-column width="50%" >
-        <mj-image fluid-on-mobile="true" src="https://i.postimg.cc/vHndRGvF/m5.jpg" alt="Jacquard Leopard Print Dress" mj-class="image-space"/>
+        <mj-image fluid-on-mobile="true" src="https://i.postimg.cc/vHndRGvF/m5.jpg" href="https://shop.mango.com/us" alt="Jacquard Leopard Print Dress" mj-class="image-space"/>
       </mj-column>
 
       <!--- text content --->
-      <mj-column width="50%" background-color="#E1DDDD" padding="100px 22px 98px">
-
-        <!--clothes name -->
-        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center">
-          <strong>Jacquard Leopard Print Dress</strong>
-        </mj-text>
-
-        <!--clothes info -->
-        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center" padding="11px 0px 0px 0px">
-          Straight design. Jacquard. Leopard print. Satin finish. Round neck. Button fastening at back. Zip fastening on the back section. Long buttoned sleeve. Knot on the waist. Asymmetric hem.
-        </mj-text>
-
-        <!--clothes price -->
-        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center" padding="11px 0px 0px 0px">
-          <strong>Price: $59.99</strong>
-        </mj-text>
-
-        <!-- buy button -->
-        <mj-button href="#" padding="11px 0px 0px 0px">Buy</mj-button>
-
+      <mj-column width="50%" background-color="#E1DDDD" padding="7px 0px">
+          <mj-image fluid-on-mobile="true" src="https://i.postimg.cc/MX25LRn9/m2.jpg" href="https://shop.mango.com/us" alt="Jacquard Leopard Print Dress"  mj-class="image-space"/>
       </mj-column>
 
     </mj-section>
 
     <!-- product 3  -->
-    <mj-section direction="rtl" padding="0">
+    <mj-section direction="rtl" background-color="#E1DDDD">
 
       <!-- image -->
       <mj-column width="50%">
@@ -123,27 +81,14 @@
       </mj-column>
 
       <!--- text content --->
-      <mj-column width="50%" background-color="#E1DDDD" padding="149px 0">
-
-        <!--clothes name -->
-        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center">
-          <strong>Other Items on Sale</strong>
-        </mj-text>
-
-        <!--clothes info -->
-        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center" padding="11px 11px 0px 11px">
-          Intrested in bags, shoes, jewelery or other accessories? We got you covered.
-        </mj-text>
-
-        <!-- buy button -->
-        <mj-button href="#" padding="11px 0px 0px 0px">Click Here</mj-button>
-
+      <mj-column width="50%" background-color="#E1DDDD" padding="7px 0px">
+          <mj-image fluid-on-mobile="true" src="https://i.postimg.cc/V65csyD3/m3.jpg" href="https://shop.mango.com/us" alt="Jacquard Leopard Print Dress"  mj-class="image-space"/>
       </mj-column>
 
     </mj-section>
 
     <!-- product 4  -->
-    <mj-section padding="0">
+    <mj-section background-color="#E1DDDD">
 
       <!-- image -->
       <mj-column width="50%">
@@ -151,32 +96,14 @@
       </mj-column>
 
       <!--- text content --->
-      <mj-column width="50%" background-color="#E1DDDD" padding="120px 0 122px">
-
-        <!--clothes name -->
-        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center">
-          <strong>Bow Shirt Dress</strong>
-        </mj-text>
-
-        <!--clothes info -->
-        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center"padding="11px 11px 0px 11px">
-          Cotton fabric. Shirt-style collar. Button fastening. Loops on the waist. Bow on the waist. Long sleeve. Two side pockets.
-        </mj-text>
-
-        <!--clothes price -->
-        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center" padding="11px 0px 0px 0px">
-          <strong>Price: $39.99</strong>
-        </mj-text>
-
-        <!-- buy button -->
-        <mj-button href="#" padding="11px 0px 0px 0px">Buy</mj-button>
-
+      <mj-column width="50%" background-color="#E1DDDD" padding="7px 0px">
+          <mj-image fluid-on-mobile="true" src="https://i.postimg.cc/xd1v6YfJ/m4.jpg" href="https://shop.mango.com/us" alt="Jacquard Leopard Print Dress"  mj-class="image-space"/>
       </mj-column>
 
     </mj-section>
 
     <!-- product 5  -->
-    <mj-section direction="rtl" padding="0">
+    <mj-section direction="rtl" background-color="#E1DDDD">
 
       <!-- image -->
       <mj-column  width="50%">
@@ -184,26 +111,8 @@
       </mj-column>
 
       <!--- text content --->
-      <mj-column  width="50%" background-color="#E1DDDD" padding="110px 0">
-
-        <!--clothes name -->
-        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center">
-          <strong>Striped Bow Dress</strong>
-        </mj-text>
-
-        <!--clothes info -->
-        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center" padding="11px 11px 0px 11px">
-          Flared design. Striped texture fabric. Round neck. Dropped shoulder seams. Short sleeve. Bow on the waist. Teardrop fastening at back.
-        </mj-text>
-
-        <!--clothes price -->
-        <mj-text font-family="questrial" font-size="15px" line-height="22px" align="center" padding="11px 0px 0px 0px">
-          <strong>Price: $59.99</strong>
-        </mj-text>
-
-        <!-- buy button -->
-        <mj-button href="#" padding="11px 0px 0px 0px">Buy</mj-button>
-
+      <mj-column width="50%" background-color="#E1DDDD" padding="7px 0px">
+        <mj-image fluid-on-mobile="true" src="https://i.postimg.cc/rs3ZkspP/m5.jpg" href="https://shop.mango.com/us" alt="Jacquard Leopard Print Dress"  mj-class="image-space"/>
       </mj-column>
 
     </mj-section>
@@ -265,7 +174,7 @@
     </mj-section>
 
     <!-- creator of this email -->
-    <mj-section background-color="#ffffff">
+    <mj-section background-color="#ffffff" border-bottom="2px solid #E1DDDD">
       <mj-column>
         <mj-text font-family="questrial" font-size="11px" align="center">
           <p>This email was created by <a style="color:crimson; text-decoration:none;" href="#">C.Coke</a> 2018. Please note that all the images are from <a style="color:crimson; text-decoration:none;" href="https://shop.mango.com/sy/women">MANGO</a></p>
